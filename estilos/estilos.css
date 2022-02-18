@@ -1,3 +1,8 @@
+/* Global */
+:root{
+    --dark-blue:#363f5f;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,19 +10,52 @@
 }
 
 body{
+    background: #f0f2f5;
     font-family: 'Poppins', sans-serif;
 }
+.container {
+    width: min(90vw, 800px);
+    margin: auto;
+   
+}
+
+/* Titulos */
+
+h2 {   
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--dark-blue);
+    font-weight: normal;
+
+}
+
 
 /* Cabeçalho */
 
 
 header {
-    background: green;
+    background: #2D4A22;
     text-align: center;
-    padding: 2rem 2rem 6rem;
+    padding: 2rem 0 10rem;
 } 
 
 #logo {
     font-weight: 100;
     color: #ffff;
+}
+/* Balance */
+#balance {
+    margin-top: -8rem;
+}
+#balance h2 {
+    color: white;
+    margin-top: 0;
+}
+
+
+
+/* Rodapé */
+
+footer{
+    text-align: center;
 }
