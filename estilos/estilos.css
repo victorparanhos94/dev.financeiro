@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Cabeçalho */
+
+
+header {
+    background: green;
+    text-align: center;
+    padding: 2rem 2rem 6rem;
+} 
+
+#logo {
+    font-weight: 100;
+    color: #ffff;
+}
