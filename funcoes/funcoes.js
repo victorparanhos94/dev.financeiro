@@ -133,7 +133,7 @@ const Form = {
     amount: document.querySelector('input#amount'),
     date: document.querySelector('input#date'),
 
-    getValues() {
+    getValues() { 
         return {
             description: Form.description.value,
             amount: Form.amount.value,
