@@ -244,7 +244,7 @@ td.expense {
 }
 /* Form */
 #form{
-    max-width: 500px;
+    max-width: 500px;    
 }
 #form h2{
     margin-top: 0;
@@ -255,7 +255,10 @@ input {
     border: none;
     border-radius: 0.2rem;
     padding: 0.8rem;
-     
+    outline: none;
+}
+input:focus {
+    border: 0.1rem solid var(--green);
 }
 
 .input-group {
